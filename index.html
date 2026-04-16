@@ -1,0 +1,1007 @@
+<!doctype html>
+<html lang="fr" class="h-full">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="TO LEARN UP SARLU - Transformation digitale, cybersécurité et infrastructure IT certifiées ISO 27001, CISSP. Solutions conformes aux standards internationaux pour entreprises, ONG et institutions.">
+  <meta name="keywords" content="transformation digitale, cybersécurité, ISO 27001, RGPD, certification, ONG, bailleurs de fonds">
+  <meta property="og:title" content="TO LEARN UP SARLU - Expert en Transformation Digitale &amp; Cybersécurité">
+  <meta property="og:description" content="Solutions IT certifiées et conformes aux standards internationaux pour organisations africaines">
+  <title>TO LEARN UP SARLU - Transformation Digitale &amp; Cybersécurité - Certifié ISO 27001</title>
+  <script src="https://cdn.tailwindcss.com/3.4.17"></script>
+  <script src="https://cdn.jsdelivr.net/npm/lucide@0.263.0/dist/umd/lucide.min.js"></script>
+  <script src="/_sdk/element_sdk.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;600;700&amp;family=Montserrat:wght@300;400;600;700&amp;display=swap" rel="stylesheet">
+  <style>
+    html, body { height: 100%; margin: 0; }
+    * { box-sizing: border-box; }
+    .font-display { font-family: 'Lora', Georgia, serif; }
+    .font-body { font-family: 'Montserrat', sans-serif; }
+    .fade-up { opacity: 0; transform: translateY(30px); animation: fadeUp 0.8s ease forwards; }
+    @keyframes fadeUp { to { opacity: 1; transform: translateY(0); } }
+    .stagger-1 { animation-delay: 0.1s; }
+    .stagger-2 { animation-delay: 0.25s; }
+    .stagger-3 { animation-delay: 0.4s; }
+    .stagger-4 { animation-delay: 0.55s; }
+    .stagger-5 { animation-delay: 0.7s; }
+    .stagger-6 { animation-delay: 0.85s; }
+    .card-hover { transition: all 0.3s ease; }
+    .card-hover:hover { transform: translateY(-8px); box-shadow: 0 20px 40px rgba(0,0,0,0.3); }
+    .nav-link { position: relative; transition: color 0.3s ease; }
+    .nav-link::after { content:''; position:absolute; bottom:-4px; left:0; width:0; height:2px; transition: width 0.3s ease; }
+    .nav-link:hover::after { width:100%; }
+    .btn-primary { transition: all 0.3s ease; border: 2px solid; }
+    .btn-primary:hover { transform: translateY(-2px); box-shadow: 0 10px 25px rgba(0,0,0,0.2); }
+    .scroll-smooth { scroll-behavior: smooth; }
+    .pattern-bg { background-image: linear-gradient(45deg, rgba(255,255,255,0.03) 25%, transparent 25%, transparent 75%, rgba(255,255,255,0.03) 75%), linear-gradient(-45deg, rgba(255,255,255,0.03) 25%, transparent 25%, transparent 75%, rgba(255,255,255,0.03) 75%); background-size: 40px 40px; background-position: 0 0, 20px 20px; }
+    .service-icon { transition: transform 0.3s ease; }
+    .card-hover:hover .service-icon { transform: scale(1.1) rotate(5deg); }
+    .glow-text { text-shadow: 0 0 20px rgba(139, 104, 78, 0.5); }
+  </style>
+  <style>body { box-sizing: border-box; }</style>
+  <script src="/_sdk/data_sdk.js" type="text/javascript"></script>
+ </head>
+ <body class="h-full font-body scroll-smooth" style="background: linear-gradient(135deg, #1a1410 0%, #2a2218 50%, #1a1410 100%);">
+  <div id="app" class="w-full h-full overflow-auto">
+   <!-- Navigation -->
+   <nav id="navbar" class="fixed top-0 left-0 w-full z-50 transition-all duration-300 backdrop-blur-md" style="background: rgba(26, 20, 16, 0.95); border-bottom: 1px solid rgba(139, 104, 78, 0.2);">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+     <a href="#hero" class="font-display font-bold tracking-tight glow-text flex flex-col items-center gap-2" id="nav-logo">
+      <svg width="56" height="56" viewbox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="20" cy="20" r="18" stroke="#d4a574" stroke-width="1.5" opacity="0.3" /> <circle cx="20" cy="20" r="14" stroke="#d4a574" stroke-width="1.5" opacity="0.5" /> <path d="M12 20h16M20 12v16" stroke="#d4a574" stroke-width="2" stroke-linecap="round" /> <circle cx="12" cy="12" r="1.5" fill="#d4a574" /> <circle cx="28" cy="12" r="1.5" fill="#d4a574" /> <circle cx="12" cy="28" r="1.5" fill="#d4a574" /> <circle cx="28" cy="28" r="1.5" fill="#d4a574" /> <path d="M14 20L18 16L22 22L26 16" stroke="#d4a574" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" opacity="0.6" />
+      </svg><span class="text-sm font-bold tracking-wider" style="color: #d4a574;">TO LEARN UP</span> </a>
+     <div class="hidden md:flex items-center gap-8">
+      <a href="#services" class="nav-link text-sm font-medium uppercase tracking-wider" style="color: #d4a574;">Services</a> <a href="#realizations" class="nav-link text-sm font-medium uppercase tracking-wider" style="color: #d4a574;">Réalisations</a> <a href="#certifications" class="nav-link text-sm font-medium uppercase tracking-wider" style="color: #d4a574;">Certifications</a> <a href="#faq" class="nav-link text-sm font-medium uppercase tracking-wider" style="color: #d4a574;">FAQ</a> <a href="#team" class="nav-link text-sm font-medium uppercase tracking-wider" style="color: #d4a574;">Équipe</a> <a href="#compliance" class="nav-link text-sm font-medium uppercase tracking-wider" style="color: #d4a574;">Conformité</a> <a href="#contact" class="nav-link text-sm font-medium uppercase tracking-wider" style="color: #d4a574;">Contact</a>
+     </div><button id="mobile-toggle" class="md:hidden p-2" aria-label="Menu"> <i data-lucide="menu" style="width:24px;height:24px;color:#d4a574;"></i> </button>
+    </div>
+    <div id="mobile-menu" class="hidden md:hidden px-6 pb-4 flex flex-col gap-3 border-t" style="border-color: rgba(139, 104, 78, 0.2);">
+     <a href="#services" class="text-sm font-medium py-2" style="color:#d4a574;">Services</a> <a href="#realizations" class="text-sm font-medium py-2" style="color:#d4a574;">Réalisations</a> <a href="#certifications" class="text-sm font-medium py-2" style="color:#d4a574;">Certifications</a> <a href="#faq" class="text-sm font-medium py-2" style="color:#d4a574;">FAQ</a> <a href="#team" class="text-sm font-medium py-2" style="color:#d4a574;">Équipe</a> <a href="#compliance" class="text-sm font-medium py-2" style="color:#d4a574;">Conformité</a> <a href="#contact" class="text-sm font-medium py-2" style="color:#d4a574;">Contact</a>
+    </div>
+   </nav><!-- Hero Section -->
+   <section id="hero" class="relative w-full pt-32 pb-24 px-6 overflow-hidden" style="background: linear-gradient(160deg, rgba(26,20,16,0.75) 0%, rgba(45,34,22,0.75) 50%, rgba(26,20,16,0.75) 100%), url('https://images.unsplash.com/photo-1552664730-d307ca884978?w=1200&amp;h=800&amp;fit=crop') center/cover; background-attachment: fixed;">
+    <div class="absolute inset-0 pattern-bg opacity-10"></div>
+    <div class="relative max-w-6xl mx-auto text-center">
+     <div class="fade-up mb-6">
+      <p class="text-sm font-bold tracking-[0.3em] uppercase mb-4" style="color: #d4a574;">🚀 Transformation Digitale</p>
+      <h1 id="hero-title" class="font-display text-5xl md:text-7xl font-bold leading-tight mb-6 glow-text" style="color: #f5f0e8;">Accélérez votre transformation digitale</h1>
+      <p id="hero-subtitle" class="text-lg md:text-xl mb-12 leading-relaxed max-w-3xl mx-auto" style="color: #b8a89a;">Nous accompagnons entreprises, institutions et organisations dans la conception, la sécurisation et la modernisation de leurs systèmes numériques avec expertise, transparence et innovation.</p>
+     </div><!-- Two Main CTA Buttons -->
+     <div class="fade-up stagger-2 flex flex-col md:flex-row gap-6 justify-center items-center mb-16">
+      <a href="#contact" id="cta-request" class="btn-primary px-8 py-4 text-sm font-bold uppercase tracking-wider rounded-lg transition-all duration-300" style="background: #d4a574; color: #1a1410; border-color: #d4a574;"> <i data-lucide="phone" style="display: inline; width: 18px; height: 18px; margin-right: 8px;"></i>Demander un Service </a> <a href="#services" id="cta-discover" class="btn-primary px-8 py-4 text-sm font-bold uppercase tracking-wider rounded-lg transition-all duration-300" style="background: transparent; color: #d4a574; border-color: #d4a574;"> <i data-lucide="arrow-right" style="display: inline; width: 18px; height: 18px; margin-right: 8px;"></i>Découvrir nos Services </a>
+     </div>
+     <div class="fade-up stagger-3 grid md:grid-cols-3 gap-8 mt-16 pt-8" style="border-top: 1px solid rgba(212, 165, 116, 0.2);">
+      <div class="text-center">
+       <p class="font-display text-3xl font-bold" style="color: #d4a574;">100+</p>
+       <p class="text-xs mt-2 uppercase tracking-wider" style="color: #a89a8c;">Clients satisfaits</p>
+      </div>
+      <div class="text-center">
+       <p class="font-display text-3xl font-bold" style="color: #d4a574;">15+</p>
+       <p class="text-xs mt-2 uppercase tracking-wider" style="color: #a89a8c;">Années d'expertise</p>
+      </div>
+      <div class="text-center">
+       <p class="font-display text-3xl font-bold" style="color: #d4a574;">98%</p>
+       <p class="text-xs mt-2 uppercase tracking-wider" style="color: #a89a8c;">Conformité réussite</p>
+      </div>
+     </div><!-- Services Preview Cards -->
+     <div class="fade-up stagger-4 grid md:grid-cols-3 gap-6 mt-16">
+      <a href="#services" class="group relative overflow-hidden rounded-xl transition-transform duration-300 hover:scale-105" style="aspect-ratio: 1; background: linear-gradient(135deg, rgba(212, 165, 116, 0.15), rgba(212, 165, 116, 0.05)); border: 2px solid rgba(212, 165, 116, 0.3);">
+       <div class="absolute inset-0 flex items-center justify-center">
+        <i data-lucide="server" style="width:48px;height:48px;color:#d4a574; opacity:0.8;"></i>
+       </div>
+       <div class="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center" style="background: rgba(0,0,0,0.6);">
+        <p class="text-center text-xs font-bold px-3" style="color: #d4a574;">Technologies IT</p>
+       </div></a> <a href="#services" class="group relative overflow-hidden rounded-xl transition-transform duration-300 hover:scale-105" style="aspect-ratio: 1; background: linear-gradient(135deg, rgba(212, 165, 116, 0.15), rgba(212, 165, 116, 0.05)); border: 2px solid rgba(212, 165, 116, 0.3);">
+       <div class="absolute inset-0 flex items-center justify-center">
+        <i data-lucide="shield-alert" style="width:48px;height:48px;color:#d4a574; opacity:0.8;"></i>
+       </div>
+       <div class="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center" style="background: rgba(0,0,0,0.6);">
+        <p class="text-center text-xs font-bold px-3" style="color: #d4a574;">Cybersécurité</p>
+       </div></a> <a href="#services" class="group relative overflow-hidden rounded-xl transition-transform duration-300 hover:scale-105" style="aspect-ratio: 1; background: linear-gradient(135deg, rgba(212, 165, 116, 0.15), rgba(212, 165, 116, 0.05)); border: 2px solid rgba(212, 165, 116, 0.3);">
+       <div class="absolute inset-0 flex items-center justify-center">
+        <i data-lucide="rocket" style="width:48px;height:48px;color:#d4a574; opacity:0.8;"></i>
+       </div>
+       <div class="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center" style="background: rgba(0,0,0,0.6);">
+        <p class="text-center text-xs font-bold px-3" style="color: #d4a574;">Transformation</p>
+       </div></a>
+     </div>
+    </div>
+   </section><!-- Services Section -->
+   <section id="services" class="w-full py-24 px-6" style="background: linear-gradient(180deg, rgba(42,34,22,0.8) 0%, rgba(26,20,16,0.8) 100%), url('https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=1200&amp;h=600&amp;fit=crop') center/cover; background-attachment: fixed;">
+    <div class="max-w-6xl mx-auto">
+     <div class="text-center mb-16">
+      <p class="text-sm font-bold tracking-[0.2em] uppercase mb-4" style="color: #d4a574;">Nos Domaines</p>
+      <h2 id="services-heading" class="font-display text-4xl md:text-5xl font-bold mb-4" style="color: #f5f0e8;">Nos Services</h2>
+      <div class="w-20 h-1 mx-auto rounded-full" style="background: linear-gradient(90deg, transparent, #d4a574, transparent);"></div>
+     </div>
+     <div class="grid md:grid-cols-3 gap-6">
+      <!-- Service 1 -->
+      <div class="card-hover fade-up stagger-1 p-6 rounded-lg border" style="background: rgba(45, 34, 22, 0.8); border: 1px solid rgba(212, 165, 116, 0.3); backdrop-filter: blur(10px);">
+       <div class="w-12 h-12 rounded-lg flex items-center justify-center mb-4 service-icon" style="background: rgba(212, 165, 116, 0.15);">
+        <i data-lucide="server" style="width:24px;height:24px;color:#d4a574;"></i>
+       </div>
+       <h3 class="font-display text-lg font-semibold mb-3" style="color: #f5f0e8;">Technologies IT</h3>
+       <p class="text-xs leading-relaxed mb-4" style="color: #a89a8c;">Infrastructure, cloud &amp; support</p><button class="text-xs font-bold uppercase tracking-wider transition hover:opacity-80" style="color: #d4a574;">Plus →</button>
+      </div><!-- Service 2 -->
+      <div class="card-hover fade-up stagger-2 p-6 rounded-lg border" style="background: rgba(45, 34, 22, 0.8); border: 1px solid rgba(212, 165, 116, 0.3); backdrop-filter: blur(10px);">
+       <div class="w-12 h-12 rounded-lg flex items-center justify-center mb-4 service-icon" style="background: rgba(212, 165, 116, 0.15);">
+        <i data-lucide="shield-alert" style="width:24px;height:24px;color:#d4a574;"></i>
+       </div>
+       <h3 class="font-display text-lg font-semibold mb-3" style="color: #f5f0e8;">Cybersécurité</h3>
+       <p class="text-xs leading-relaxed mb-4" style="color: #a89a8c;">Audit, conformité &amp; gestion risques</p><button class="text-xs font-bold uppercase tracking-wider transition hover:opacity-80" style="color: #d4a574;">Plus →</button>
+      </div><!-- Service 3 -->
+      <div class="card-hover fade-up stagger-3 p-6 rounded-lg border" style="background: rgba(45, 34, 22, 0.8); border: 1px solid rgba(212, 165, 116, 0.3); backdrop-filter: blur(10px);">
+       <div class="w-12 h-12 rounded-lg flex items-center justify-center mb-4 service-icon" style="background: rgba(212, 165, 116, 0.15);">
+        <i data-lucide="network" style="width:24px;height:24px;color:#d4a574;"></i>
+       </div>
+       <h3 class="font-display text-lg font-semibold mb-3" style="color: #f5f0e8;">Réseaux &amp; Télécom</h3>
+       <p class="text-xs leading-relaxed mb-4" style="color: #a89a8c;">LAN/WAN, Wi-Fi &amp; communications unifiées</p><button class="text-xs font-bold uppercase tracking-wider transition hover:opacity-80" style="color: #d4a574;">Plus →</button>
+      </div><!-- Service 4 -->
+      <div class="card-hover fade-up stagger-4 p-6 rounded-lg border" style="background: rgba(45, 34, 22, 0.8); border: 1px solid rgba(212, 165, 116, 0.3); backdrop-filter: blur(10px);">
+       <div class="w-12 h-12 rounded-lg flex items-center justify-center mb-4 service-icon" style="background: rgba(212, 165, 116, 0.15);">
+        <i data-lucide="rocket" style="width:24px;height:24px;color:#d4a574;"></i>
+       </div>
+       <h3 class="font-display text-lg font-semibold mb-3" style="color: #f5f0e8;">Transformation Digitale</h3>
+       <p class="text-xs leading-relaxed mb-4" style="color: #a89a8c;">Web, mobile, ERP &amp; automatisation</p><button class="text-xs font-bold uppercase tracking-wider transition hover:opacity-80" style="color: #d4a574;">Plus →</button>
+      </div><!-- Service 5 -->
+      <div class="card-hover fade-up stagger-5 p-6 rounded-lg border" style="background: rgba(45, 34, 22, 0.8); border: 1px solid rgba(212, 165, 116, 0.3); backdrop-filter: blur(10px);">
+       <div class="w-12 h-12 rounded-lg flex items-center justify-center mb-4 service-icon" style="background: rgba(212, 165, 116, 0.15);">
+        <i data-lucide="camera" style="width:24px;height:24px;color:#d4a574;"></i>
+       </div>
+       <h3 class="font-display text-lg font-semibold mb-3" style="color: #f5f0e8;">Sécurité Électronique</h3>
+       <p class="text-xs leading-relaxed mb-4" style="color: #a89a8c;">CCTV, contrôle accès &amp; alarmes</p><button class="text-xs font-bold uppercase tracking-wider transition hover:opacity-80" style="color: #d4a574;">Plus →</button>
+      </div><!-- Service 6 -->
+      <div class="card-hover fade-up stagger-6 p-6 rounded-lg border" style="background: rgba(45, 34, 22, 0.8); border: 1px solid rgba(212, 165, 116, 0.3); backdrop-filter: blur(10px);">
+       <div class="w-12 h-12 rounded-lg flex items-center justify-center mb-4 service-icon" style="background: rgba(212, 165, 116, 0.15);">
+        <i data-lucide="briefcase" style="width:24px;height:24px;color:#d4a574;"></i>
+       </div>
+       <h3 class="font-display text-lg font-semibold mb-3" style="color: #f5f0e8;">Marchés Publics</h3>
+       <p class="text-xs leading-relaxed mb-4" style="color: #a89a8c;">Sous-traitance, appels d'offres &amp; formation</p><button class="text-xs font-bold uppercase tracking-wider transition hover:opacity-80" style="color: #d4a574;">Plus →</button>
+      </div><!-- Service 7 -->
+      <div class="card-hover fade-up stagger-1 p-6 rounded-lg border" style="background: rgba(45, 34, 22, 0.8); border: 1px solid rgba(212, 165, 116, 0.3); backdrop-filter: blur(10px);">
+       <div class="w-12 h-12 rounded-lg flex items-center justify-center mb-4 service-icon" style="background: rgba(212, 165, 116, 0.15);">
+        <i data-lucide="book-open" style="width:24px;height:24px;color:#d4a574;"></i>
+       </div>
+       <h3 class="font-display text-lg font-semibold mb-3" style="color: #f5f0e8;">Formation &amp; Accompagnement</h3>
+       <p class="text-xs leading-relaxed mb-4" style="color: #a89a8c;">Formations, support &amp; coaching digital</p><button class="text-xs font-bold uppercase tracking-wider transition hover:opacity-80" style="color: #d4a574;">Plus →</button>
+      </div><!-- Service 8 -->
+      <div class="card-hover fade-up stagger-2 p-6 rounded-lg border" style="background: rgba(45, 34, 22, 0.8); border: 1px solid rgba(212, 165, 116, 0.3); backdrop-filter: blur(10px);">
+       <div class="w-12 h-12 rounded-lg flex items-center justify-center mb-4 service-icon" style="background: rgba(212, 165, 116, 0.15);">
+        <i data-lucide="package" style="width:24px;height:24px;color:#d4a574;"></i>
+       </div>
+       <h3 class="font-display text-lg font-semibold mb-3" style="color: #f5f0e8;">Fourniture d'Équipements</h3>
+       <p class="text-xs leading-relaxed mb-4" style="color: #a89a8c;">Matériel IT, serveurs &amp; équipements sécurité</p><button class="text-xs font-bold uppercase tracking-wider transition hover:opacity-80" style="color: #d4a574;">Plus →</button>
+      </div><!-- Service 9 -->
+      <div class="card-hover fade-up stagger-3 p-6 rounded-lg border" style="background: rgba(45, 34, 22, 0.8); border: 1px solid rgba(212, 165, 116, 0.3); backdrop-filter: blur(10px);">
+       <div class="w-12 h-12 rounded-lg flex items-center justify-center mb-4 service-icon" style="background: rgba(212, 165, 116, 0.15);">
+        <i data-lucide="wrench" style="width:24px;height:24px;color:#d4a574;"></i>
+       </div>
+       <h3 class="font-display text-lg font-semibold mb-3" style="color: #f5f0e8;">Support &amp; Maintenance</h3>
+       <p class="text-xs leading-relaxed mb-4" style="color: #a89a8c;">Support 24/7, maintenance &amp; gestion incidents</p><button class="text-xs font-bold uppercase tracking-wider transition hover:opacity-80" style="color: #d4a574;">Plus →</button>
+      </div>
+     </div>
+    </div>
+   </section><!-- Realizations Section -->
+   <section id="realizations" class="w-full py-24 px-6" style="background: linear-gradient(180deg, #1a1410 0%, #2a2216 100%);">
+    <div class="max-w-6xl mx-auto">
+     <div class="text-center mb-16">
+      <p class="text-sm font-bold tracking-[0.2em] uppercase mb-4" style="color: #d4a574;">Succès &amp; Impact</p>
+      <h2 id="realizations-heading" class="font-display text-4xl md:text-5xl font-bold mb-4" style="color: #f5f0e8;">Nos Réalisations</h2>
+      <div class="w-20 h-1 mx-auto rounded-full" style="background: linear-gradient(90deg, transparent, #d4a574, transparent);"></div>
+     </div>
+     <div class="grid md:grid-cols-3 gap-8">
+      <!-- Case 1 -->
+      <div class="fade-up stagger-1 p-8 rounded-lg border overflow-hidden card-hover" style="background: rgba(45, 34, 22, 0.8); border: 1px solid rgba(212, 165, 116, 0.3);">
+       <div class="mb-4">
+        <span class="inline-block px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider mb-3" style="background: rgba(212, 165, 116, 0.15); color: #d4a574;">Banque</span>
+        <h3 class="font-display text-lg font-semibold" style="color: #f5f0e8;">Migration Infrastructure Sécurisée</h3>
+       </div>
+       <p class="text-sm leading-relaxed mb-4" style="color: #a89a8c;">Migration complète vers cloud sécurisé avec ISO 27001. Zéro interruption de service, conformité totale.</p>
+       <p class="text-xs font-bold" style="color: #d4a574;">+98% de disponibilité →</p>
+      </div><!-- Case 2 -->
+      <div class="fade-up stagger-2 p-8 rounded-lg border overflow-hidden card-hover" style="background: rgba(45, 34, 22, 0.8); border: 1px solid rgba(212, 165, 116, 0.3);">
+       <div class="mb-4">
+        <span class="inline-block px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider mb-3" style="background: rgba(212, 165, 116, 0.15); color: #d4a574;">ONG</span>
+        <h3 class="font-display text-lg font-semibold" style="color: #f5f0e8;">Transformation Digitale Complète</h3>
+       </div>
+       <p class="text-sm leading-relaxed mb-4" style="color: #a89a8c;">Implémentation ERP, formation 150+ collaborateurs, automatisation processus. ROI 6 mois.</p>
+       <p class="text-xs font-bold" style="color: #d4a574;">+45% productivité →</p>
+      </div><!-- Case 3 -->
+      <div class="fade-up stagger-3 p-8 rounded-lg border overflow-hidden card-hover" style="background: rgba(45, 34, 22, 0.8); border: 1px solid rgba(212, 165, 116, 0.3);">
+       <div class="mb-4">
+        <span class="inline-block px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider mb-3" style="background: rgba(212, 165, 116, 0.15); color: #d4a574;">Gouvernement</span>
+        <h3 class="font-display text-lg font-semibold" style="color: #f5f0e8;">Audit &amp; Sécurisation Réseau Critique</h3>
+       </div>
+       <p class="text-sm leading-relaxed mb-4" style="color: #a89a8c;">Audit complet, identification 50+ vulnérabilités, déploiement protections. Certification réussie.</p>
+       <p class="text-xs font-bold" style="color: #d4a574;">100% conformité →</p>
+      </div><!-- Case 4 -->
+      <div class="fade-up stagger-4 p-8 rounded-lg border overflow-hidden card-hover" style="background: rgba(45, 34, 22, 0.8); border: 1px solid rgba(212, 165, 116, 0.3);">
+       <div class="mb-4">
+        <span class="inline-block px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider mb-3" style="background: rgba(212, 165, 116, 0.15); color: #d4a574;">Entreprise Tech</span>
+        <h3 class="font-display text-lg font-semibold" style="color: #f5f0e8;">Déploiement CCTV &amp; Accès Biométrique</h3>
+       </div>
+       <p class="text-sm leading-relaxed mb-4" style="color: #a89a8c;">Installation 100 caméras 4K, système accès multisites, monitoring centralisé. Support 24/7.</p>
+       <p class="text-xs font-bold" style="color: #d4a574;">Sécurité maximale →</p>
+      </div><!-- Case 5 -->
+      <div class="fade-up stagger-5 p-8 rounded-lg border overflow-hidden card-hover" style="background: rgba(45, 34, 22, 0.8); border: 1px solid rgba(212, 165, 116, 0.3);">
+       <div class="mb-4">
+        <span class="inline-block px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider mb-3" style="background: rgba(212, 165, 116, 0.15); color: #d4a574;">Startup</span>
+        <h3 class="font-display text-lg font-semibold" style="color: #f5f0e8;">App Mobile &amp; Web Platform</h3>
+       </div>
+       <p class="text-sm leading-relaxed mb-4" style="color: #a89a8c;">Développement app iOS/Android + backend. Scalabilité cloud. Lancement marché 4 mois.</p>
+       <p class="text-xs font-bold" style="color: #d4a574;">10k+ utilisateurs →</p>
+      </div><!-- Case 6 -->
+      <div class="fade-up stagger-6 p-8 rounded-lg border overflow-hidden card-hover" style="background: rgba(45, 34, 22, 0.8); border: 1px solid rgba(212, 165, 116, 0.3);">
+       <div class="mb-4">
+        <span class="inline-block px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider mb-3" style="background: rgba(212, 165, 116, 0.15); color: #d4a574;">Université</span>
+        <h3 class="font-display text-lg font-semibold" style="color: #f5f0e8;">Infrastructure Réseau &amp; Formation IT</h3>
+       </div>
+       <p class="text-sm leading-relaxed mb-4" style="color: #a89a8c;">Déploiement réseau 5 campus, laboratoires informatiques, formation 200 étudiants.</p>
+       <p class="text-xs font-bold" style="color: #d4a574;">Savoirs transmis →</p>
+      </div>
+     </div>
+    </div>
+   </section><!-- Certifications Section -->
+   <section id="certifications" class="w-full py-24 px-6" style="background: linear-gradient(180deg, rgba(42,34,22,0.8) 0%, rgba(26,20,16,0.8) 100%), url('https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=1200&amp;h=600&amp;fit=crop') center/cover; background-attachment: fixed;">
+    <div class="max-w-6xl mx-auto">
+     <div class="text-center mb-16">
+      <p class="text-sm font-bold tracking-[0.2em] uppercase mb-4" style="color: #d4a574;">Excellence &amp; Accréditation</p>
+      <h2 id="certifications-heading" class="font-display text-4xl md:text-5xl font-bold mb-4" style="color: #f5f0e8;">Nos Certifications</h2>
+      <div class="w-20 h-1 mx-auto rounded-full" style="background: linear-gradient(90deg, transparent, #d4a574, transparent);"></div>
+     </div>
+     <div class="grid md:grid-cols-4 gap-6">
+      <!-- Certification 1 -->
+      <div class="fade-up stagger-1 p-6 rounded-lg border text-center card-hover" style="background: rgba(45, 34, 22, 0.8); border: 1px solid rgba(212, 165, 116, 0.3);">
+       <div class="w-16 h-16 rounded-lg flex items-center justify-center mx-auto mb-4" style="background: rgba(212, 165, 116, 0.15);">
+        <i data-lucide="shield-check" style="width:32px;height:32px;color:#d4a574;"></i>
+       </div>
+       <h3 class="font-display font-semibold mb-2" style="color: #f5f0e8;">ISO/IEC 27001</h3>
+       <p class="text-xs" style="color: #a89a8c;">Sécurité Information</p>
+      </div><!-- Certification 2 -->
+      <div class="fade-up stagger-2 p-6 rounded-lg border text-center card-hover" style="background: rgba(45, 34, 22, 0.8); border: 1px solid rgba(212, 165, 116, 0.3);">
+       <div class="w-16 h-16 rounded-lg flex items-center justify-center mx-auto mb-4" style="background: rgba(212, 165, 116, 0.15);">
+        <i data-lucide="award" style="width:32px;height:32px;color:#d4a574;"></i>
+       </div>
+       <h3 class="font-display font-semibold mb-2" style="color: #f5f0e8;">CISSP</h3>
+       <p class="text-xs" style="color: #a89a8c;">Professionnel Sécurité Certifié</p>
+      </div><!-- Certification 3 -->
+      <div class="fade-up stagger-3 p-6 rounded-lg border text-center card-hover" style="background: rgba(45, 34, 22, 0.8); border: 1px solid rgba(212, 165, 116, 0.3);">
+       <div class="w-16 h-16 rounded-lg flex items-center justify-center mx-auto mb-4" style="background: rgba(212, 165, 116, 0.15);">
+        <i data-lucide="cloud" style="width:32px;height:32px;color:#d4a574;"></i>
+       </div>
+       <h3 class="font-display font-semibold mb-2" style="color: #f5f0e8;">AWS Solutions</h3>
+       <p class="text-xs" style="color: #a89a8c;">Architecture &amp; Déploiement</p>
+      </div><!-- Certification 4 -->
+      <div class="fade-up stagger-4 p-6 rounded-lg border text-center card-hover" style="background: rgba(45, 34, 22, 0.8); border: 1px solid rgba(212, 165, 116, 0.3);">
+       <div class="w-16 h-16 rounded-lg flex items-center justify-center mx-auto mb-4" style="background: rgba(212, 165, 116, 0.15);">
+        <i data-lucide="network" style="width:32px;height:32px;color:#d4a574;"></i>
+       </div>
+       <h3 class="font-display font-semibold mb-2" style="color: #f5f0e8;">CCNA</h3>
+       <p class="text-xs" style="color: #a89a8c;">Cisco Networking</p>
+      </div><!-- Certification 5 -->
+      <div class="fade-up stagger-5 p-6 rounded-lg border text-center card-hover" style="background: rgba(45, 34, 22, 0.8); border: 1px solid rgba(212, 165, 116, 0.3);">
+       <div class="w-16 h-16 rounded-lg flex items-center justify-center mx-auto mb-4" style="background: rgba(212, 165, 116, 0.15);">
+        <i data-lucide="lock" style="width:32px;height:32px;color:#d4a574;"></i>
+       </div>
+       <h3 class="font-display font-semibold mb-2" style="color: #f5f0e8;">RGPD Compliant</h3>
+       <p class="text-xs" style="color: #a89a8c;">Protection Données EU</p>
+      </div><!-- Certification 6 -->
+      <div class="fade-up stagger-6 p-6 rounded-lg border text-center card-hover" style="background: rgba(45, 34, 22, 0.8); border: 1px solid rgba(212, 165, 116, 0.3);">
+       <div class="w-16 h-16 rounded-lg flex items-center justify-center mx-auto mb-4" style="background: rgba(212, 165, 116, 0.15);">
+        <i data-lucide="zap" style="width:32px;height:32px;color:#d4a574;"></i>
+       </div>
+       <h3 class="font-display font-semibold mb-2" style="color: #f5f0e8;">NIST Framework</h3>
+       <p class="text-xs" style="color: #a89a8c;">Cyber Resilience</p>
+      </div><!-- Certification 7 -->
+      <div class="fade-up stagger-1 p-6 rounded-lg border text-center card-hover" style="background: rgba(45, 34, 22, 0.8); border: 1px solid rgba(212, 165, 116, 0.3);">
+       <div class="w-16 h-16 rounded-lg flex items-center justify-center mx-auto mb-4" style="background: rgba(212, 165, 116, 0.15);">
+        <i data-lucide="briefcase" style="width:32px;height:32px;color:#d4a574;"></i>
+       </div>
+       <h3 class="font-display font-semibold mb-2" style="color: #f5f0e8;">PMI Project</h3>
+       <p class="text-xs" style="color: #a89a8c;">Gestion Projets IT</p>
+      </div><!-- Certification 8 -->
+      <div class="fade-up stagger-2 p-6 rounded-lg border text-center card-hover" style="background: rgba(45, 34, 22, 0.8); border: 1px solid rgba(212, 165, 116, 0.3);">
+       <div class="w-16 h-16 rounded-lg flex items-center justify-center mx-auto mb-4" style="background: rgba(212, 165, 116, 0.15);">
+        <i data-lucide="book" style="width:32px;height:32px;color:#d4a574;"></i>
+       </div>
+       <h3 class="font-display font-semibold mb-2" style="color: #f5f0e8;">Azure Certified</h3>
+       <p class="text-xs" style="color: #a89a8c;">Microsoft Cloud</p>
+      </div>
+     </div>
+    </div>
+   </section><!-- FAQ Section -->
+   <section id="faq" class="w-full py-24 px-6" style="background: linear-gradient(180deg, #1a1410 0%, #2a2216 100%);">
+    <div class="max-w-3xl mx-auto">
+     <div class="text-center mb-16">
+      <p class="text-sm font-bold tracking-[0.2em] uppercase mb-4" style="color: #d4a574;">Réponses</p>
+      <h2 id="faq-heading" class="font-display text-4xl md:text-5xl font-bold mb-4" style="color: #f5f0e8;">Questions Fréquentes</h2>
+      <div class="w-20 h-1 mx-auto rounded-full" style="background: linear-gradient(90deg, transparent, #d4a574, transparent);"></div>
+     </div>
+     <div class="space-y-4">
+      <!-- FAQ 1 -->
+      <div class="fade-up stagger-1 border rounded-lg overflow-hidden" style="border: 1px solid rgba(212, 165, 116, 0.3); background: rgba(45, 34, 22, 0.5);">
+       <button class="faq-button w-full text-left p-6 flex items-center justify-between hover:bg-opacity-80 transition" style="background: rgba(45, 34, 22, 0.8);"> <span class="font-display font-semibold" style="color: #f5f0e8;">Quels services offrez-vous?</span> <i class="faq-icon" data-lucide="chevron-down" style="width:20px;height:20px;color:#d4a574;transition:transform 0.3s;"></i> </button>
+       <div class="faq-content hidden p-6 text-sm leading-relaxed" style="color: #a89a8c; border-top: 1px solid rgba(212, 165, 116, 0.2);">
+        Nous offrons une suite complète: technologies IT, cybersécurité, réseaux &amp; télécom, transformation digitale, sécurité électronique, marchés publics, formation et support 24/7.
+       </div>
+      </div><!-- FAQ 2 -->
+      <div class="fade-up stagger-2 border rounded-lg overflow-hidden" style="border: 1px solid rgba(212, 165, 116, 0.3); background: rgba(45, 34, 22, 0.5);">
+       <button class="faq-button w-full text-left p-6 flex items-center justify-between hover:bg-opacity-80 transition" style="background: rgba(45, 34, 22, 0.8);"> <span class="font-display font-semibold" style="color: #f5f0e8;">Êtes-vous certifiés?</span> <i class="faq-icon" data-lucide="chevron-down" style="width:20px;height:20px;color:#d4a574;transition:transform 0.3s;"></i> </button>
+       <div class="faq-content hidden p-6 text-sm leading-relaxed" style="color: #a89a8c; border-top: 1px solid rgba(212, 165, 116, 0.2);">
+        Oui, notre équipe possède les certifications internationales: ISO 27001, CISSP, AWS, CCNA, RGPD, NIST Framework et bien d'autres.
+       </div>
+      </div><!-- FAQ 3 -->
+      <div class="fade-up stagger-3 border rounded-lg overflow-hidden" style="border: 1px solid rgba(212, 165, 116, 0.3); background: rgba(45, 34, 22, 0.5);">
+       <button class="faq-button w-full text-left p-6 flex items-center justify-between hover:bg-opacity-80 transition" style="background: rgba(45, 34, 22, 0.8);"> <span class="font-display font-semibold" style="color: #f5f0e8;">Comment débutez-vous un projet?</span> <i class="faq-icon" data-lucide="chevron-down" style="width:20px;height:20px;color:#d4a574;transition:transform 0.3s;"></i> </button>
+       <div class="faq-content hidden p-6 text-sm leading-relaxed" style="color: #a89a8c; border-top: 1px solid rgba(212, 165, 116, 0.2);">
+        Nous commençons par un audit complet de vos besoins, une analyse stratégique, puis proposons un plan d'action détaillé avec timeline et coûts transparents.
+       </div>
+      </div><!-- FAQ 4 -->
+      <div class="fade-up stagger-4 border rounded-lg overflow-hidden" style="border: 1px solid rgba(212, 165, 116, 0.3); background: rgba(45, 34, 22, 0.5);">
+       <button class="faq-button w-full text-left p-6 flex items-center justify-between hover:bg-opacity-80 transition" style="background: rgba(45, 34, 22, 0.8);"> <span class="font-display font-semibold" style="color: #f5f0e8;">Offrez-vous du support après déploiement?</span> <i class="faq-icon" data-lucide="chevron-down" style="width:20px;height:20px;color:#d4a574;transition:transform 0.3s;"></i> </button>
+       <div class="faq-content hidden p-6 text-sm leading-relaxed" style="color: #a89a8c; border-top: 1px solid rgba(212, 165, 116, 0.2);">
+        Absolument! Nous proposons des SLA de support 24/7, maintenance préventive, monitoring continu et formation de votre équipe pour l'autonomie.
+       </div>
+      </div><!-- FAQ 5 -->
+      <div class="fade-up stagger-5 border rounded-lg overflow-hidden" style="border: 1px solid rgba(212, 165, 116, 0.3); background: rgba(45, 34, 22, 0.5);">
+       <button class="faq-button w-full text-left p-6 flex items-center justify-between hover:bg-opacity-80 transition" style="background: rgba(45, 34, 22, 0.8);"> <span class="font-display font-semibold" style="color: #f5f0e8;">Pouvez-vous travailler avec mon budget?</span> <i class="faq-icon" data-lucide="chevron-down" style="width:20px;height:20px;color:#d4a574;transition:transform 0.3s;"></i> </button>
+       <div class="faq-content hidden p-6 text-sm leading-relaxed" style="color: #a89a8c; border-top: 1px solid rgba(212, 165, 116, 0.2);">
+        Oui! Nous proposons des solutions flexibles: forfaits, paiement à l'étape, et nous structurons les projets pour maximiser ROI dans vos contraintes financières.
+       </div>
+      </div><!-- FAQ 6 -->
+      <div class="fade-up stagger-6 border rounded-lg overflow-hidden" style="border: 1px solid rgba(212, 165, 116, 0.3); background: rgba(45, 34, 22, 0.5);">
+       <button class="faq-button w-full text-left p-6 flex items-center justify-between hover:bg-opacity-80 transition" style="background: rgba(45, 34, 22, 0.8);"> <span class="font-display font-semibold" style="color: #f5f0e8;">Quels délais pour une implémentation?</span> <i class="faq-icon" data-lucide="chevron-down" style="width:20px;height:20px;color:#d4a574;transition:transform 0.3s;"></i> </button>
+       <div class="faq-content hidden p-6 text-sm leading-relaxed" style="color: #a89a8c; border-top: 1px solid rgba(212, 165, 116, 0.2);">
+        Cela dépend de la complexité. Les petits projets: 2-4 semaines. Les implémentations complètes: 3-6 mois. Nous respectons les délais et communiquons régulièrement.
+       </div>
+      </div>
+     </div>
+    </div>
+   </section>
+   <section id="story" class="w-full py-24 px-6" style="background: linear-gradient(180deg, rgba(26,20,16,0.8) 0%, rgba(42,34,22,0.8) 100%), url('https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=1200&amp;h=600&amp;fit=crop') center/cover; background-attachment: fixed;">
+    <div class="max-w-6xl mx-auto">
+     <div class="text-center mb-16">
+      <p class="text-sm font-bold tracking-[0.2em] uppercase mb-4 fade-up" style="color: #d4a574;">Fondation &amp; Évolution</p>
+      <h2 id="story-heading" class="font-display text-4xl md:text-5xl font-bold mb-4 fade-up stagger-1" style="color: #f5f0e8;">Notre Histoire et Vision Unique</h2>
+      <div class="w-20 h-1 rounded-full mx-auto mb-8 fade-up stagger-2" style="background: linear-gradient(90deg, transparent, #d4a574, transparent);"></div>
+     </div>
+     <div class="grid md:grid-cols-2 gap-12 items-center">
+      <div class="fade-up stagger-3">
+       <p id="story-text" class="text-base leading-relaxed mb-6" style="color: #b8a89a;">Chez TO LEARN UP SARLU, nous ne nous contentons pas de fournir des services numériques : nous accompagnons les organisations vers une transformation durable et sécurisée. Depuis notre création en 2023, notre mission est claire : rendre la technologie accessible, sécurisée et stratégique pour chaque entreprise, administration ou startup que nous accompagnons.</p>
+       <p class="text-base leading-relaxed mb-8" style="color: #b8a89a;">Nous croyons que la digitalisation n'est efficace que lorsqu'elle est combinée à la formation des équipes, la protection des données et l'optimisation des processus internes. Notre approche se distingue par l'innovation pratique, la confiance absolue et la sécurité comme priorité stratégique.</p>
+       <div class="space-y-4">
+        <div class="fade-up stagger-4 p-4 rounded-lg" style="background: rgba(212, 165, 116, 0.08); border-left: 3px solid #d4a574;">
+         <p class="font-display font-semibold mb-2" style="color: #d4a574;">💡 Notre Conviction</p>
+         <p class="text-sm" style="color: #a89a8c;">La technologie doit servir l'humain. Chaque formation et accompagnement vise à autonomiser les équipes pour qu'elles deviennent actrices de la transformation.</p>
+        </div>
+        <div class="fade-up stagger-5 p-4 rounded-lg" style="background: rgba(212, 165, 116, 0.08); border-left: 3px solid #d4a574;">
+         <p class="font-display font-semibold mb-2" style="color: #d4a574;">🎯 Notre Message</p>
+         <p class="text-sm" style="color: #a89a8c;">"TO LEARN UP SARLU transforme la technologie en avantage stratégique, tout en plaçant les personnes et la sécurité au cœur de chaque projet."</p>
+        </div>
+       </div>
+      </div>
+      <div class="fade-up stagger-4 relative">
+       <div class="relative rounded-xl overflow-hidden" style="background: linear-gradient(135deg, rgba(212, 165, 116, 0.15), rgba(212, 165, 116, 0.05)); border: 1px solid rgba(212, 165, 116, 0.2); aspect-ratio: 4/3;">
+        <div class="absolute inset-0 flex flex-col items-center justify-center p-8 space-y-6">
+         <div class="text-center">
+          <p class="font-display text-4xl font-bold" style="color: #d4a574;">2023</p>
+          <p class="text-xs mt-2 uppercase tracking-wider" style="color: #a89a8c;">Année de Fondation</p>
+         </div>
+         <div class="w-16 h-1 rounded-full" style="background: #d4a574;"></div>
+         <div class="text-center">
+          <p class="text-xs uppercase tracking-wider font-bold" style="color: #d4a574;">Présence</p>
+          <p class="text-sm mt-2" style="color: #b8a89a;">Kinshasa &amp; Multisites Afrique</p>
+         </div>
+         <div class="text-center">
+          <p class="text-xs uppercase tracking-wider font-bold" style="color: #d4a574;">Impact</p>
+          <p class="text-sm mt-2" style="color: #b8a89a;">100+ Organisations Transformées</p>
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </section><!-- About Section -->
+   <section id="about" class="w-full py-24 px-6" style="background: linear-gradient(180deg, #1a1410 0%, #2a2216 100%);">
+    <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-16 items-center">
+     <div>
+      <p class="text-sm font-bold tracking-[0.2em] uppercase mb-4 fade-up" style="color: #d4a574;">Qui Sommes-Nous</p>
+      <h2 id="about-heading" class="font-display text-4xl md:text-5xl font-bold mb-6 fade-up stagger-1" style="color: #f5f0e8;">À Propos de TO LEARN UP SARLU</h2>
+      <div class="w-20 h-1 rounded-full mb-8 fade-up stagger-2" style="background: linear-gradient(90deg, #d4a574, transparent);"></div>
+      <p id="about-text" class="fade-up stagger-3 text-base leading-relaxed mb-6" style="color: #b8a89a;">TO LEARN UP SARLU est une entreprise spécialisée dans la transformation digitale, la cybersécurité et les infrastructures IT. Basée à Kinshasa, nous intervenons auprès des entreprises, ONG et institutions avec une approche orientée performance, sécurité et innovation.</p>
+      <div class="fade-up stagger-4 mt-10 space-y-4">
+       <div class="flex items-start gap-4">
+        <div class="w-6 h-6 rounded-full flex items-center justify-center flex-shrink-0 mt-1" style="background: rgba(212, 165, 116, 0.2);">
+         <i data-lucide="check" style="width:16px;height:16px;color:#d4a574;"></i>
+        </div>
+        <p class="text-sm" style="color: #b8a89a;">Expertise technique multidisciplinaire reconnue</p>
+       </div>
+       <div class="flex items-start gap-4">
+        <div class="w-6 h-6 rounded-full flex items-center justify-center flex-shrink-0 mt-1" style="background: rgba(212, 165, 116, 0.2);">
+         <i data-lucide="check" style="width:16px;height:16px;color:#d4a574;"></i>
+        </div>
+        <p class="text-sm" style="color: #b8a89a;">Conformité aux standards internationaux</p>
+       </div>
+       <div class="flex items-start gap-4">
+        <div class="w-6 h-6 rounded-full flex items-center justify-center flex-shrink-0 mt-1" style="background: rgba(212, 165, 116, 0.2);">
+         <i data-lucide="check" style="width:16px;height:16px;color:#d4a574;"></i>
+        </div>
+        <p class="text-sm" style="color: #b8a89a;">Solutions adaptées au contexte africain</p>
+       </div>
+       <div class="flex items-start gap-4">
+        <div class="w-6 h-6 rounded-full flex items-center justify-center flex-shrink-0 mt-1" style="background: rgba(212, 165, 116, 0.2);">
+         <i data-lucide="check" style="width:16px;height:16px;color:#d4a574;"></i>
+        </div>
+        <p class="text-sm" style="color: #b8a89a;">Accompagnement complet de l'analyse à la maintenance</p>
+       </div>
+      </div>
+     </div>
+     <div class="fade-up stagger-3 relative">
+      <div class="relative rounded-xl overflow-hidden" style="background: linear-gradient(135deg, rgba(212, 165, 116, 0.15), rgba(212, 165, 116, 0.05)); border: 1px solid rgba(212, 165, 116, 0.2); aspect-ratio: 4/3;">
+       <div class="absolute inset-0 flex flex-col items-center justify-center space-y-6 p-8">
+        <div class="grid grid-cols-2 gap-4 w-full">
+         <div class="p-4 rounded-lg text-center" style="background: rgba(212, 165, 116, 0.1); border: 1px solid rgba(212, 165, 116, 0.2);">
+          <p class="font-display text-2xl font-bold" style="color: #d4a574;">100+</p>
+          <p class="text-xs mt-2 uppercase" style="color: #a89a8c;">Clients</p>
+         </div>
+         <div class="p-4 rounded-lg text-center" style="background: rgba(212, 165, 116, 0.1); border: 1px solid rgba(212, 165, 116, 0.2);">
+          <p class="font-display text-2xl font-bold" style="color: #d4a574;">15+</p>
+          <p class="text-xs mt-2 uppercase" style="color: #a89a8c;">Ans Expérience</p>
+         </div>
+        </div>
+        <div class="w-full p-4 rounded-lg text-center" style="background: rgba(212, 165, 116, 0.1); border: 1px solid rgba(212, 165, 116, 0.2);">
+         <i data-lucide="star" style="width:32px;height:32px;color:#d4a574; margin: 0 auto;"></i>
+         <p class="text-sm mt-2" style="color: #b8a89a;">Performance &amp; Sécurité</p>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </section><!-- Team Section -->
+   <section id="team" class="w-full py-24 px-6" style="background: linear-gradient(180deg, rgba(42,34,22,0.8) 0%, rgba(26,20,16,0.8) 100%), url('https://images.unsplash.com/photo-1552664730-d307ca884978?w=1200&amp;h=600&amp;fit=crop') center/cover; background-attachment: fixed;">
+    <div class="max-w-6xl mx-auto">
+     <div class="text-center mb-16">
+      <p class="text-sm font-bold tracking-[0.2em] uppercase mb-4" style="color: #d4a574;">Nos Ressources</p>
+      <h2 id="team-heading" class="font-display text-4xl md:text-5xl font-bold mb-4" style="color: #f5f0e8;">Notre Équipe de Direction</h2>
+      <div class="w-20 h-1 mx-auto rounded-full" style="background: linear-gradient(90deg, transparent, #d4a574, transparent);"></div>
+     </div><!-- Leadership Cards -->
+     <div class="grid md:grid-cols-2 gap-8 mb-16"><!-- Eddie Lulebe -->
+      <div class="fade-up stagger-1 p-8 rounded-lg border overflow-hidden" style="background: rgba(45, 34, 22, 0.8); border: 1px solid rgba(212, 165, 116, 0.3);">
+       <div class="mb-4">
+        <div class="w-20 h-20 rounded-lg mb-4 flex items-center justify-center" style="background: linear-gradient(135deg, #d4a574, #8b684e);"><i data-lucide="user" style="width:40px;height:40px;color:#f5f0e8;"></i>
+        </div>
+        <h3 class="font-display text-2xl font-bold" style="color: #f5f0e8;">Eddie Lulebe Balalubama</h3>
+        <p class="text-sm font-semibold mt-1" style="color: #d4a574;">Directeur Général (CEO)</p>
+        <p class="text-xs mt-2 uppercase tracking-wider" style="color: #a89a8c;">Expert en Cybersécurité &amp; Infrastructures Réseaux</p>
+       </div>
+       <p class="text-sm leading-relaxed mb-4" style="color: #b8a89a;">Dirigeant visionnaire, spécialiste chevronné en cybersécurité diplômé en Tunisie. Architecte stratégique garantissant la conformité aux standards internationaux (ISO/IEC 27001, NIST).</p>
+       <div class="pt-4 border-t" style="border-color: rgba(212, 165, 116, 0.2);">
+        <p class="text-xs font-bold uppercase tracking-wider mb-3" style="color: #d4a574;">Domaines d'expertise</p>
+        <ul class="space-y-1 text-xs" style="color: #a89a8c;">
+         <li>🔐 Cybersécurité &amp; Protection des données sensibles</li>
+         <li>🌐 Réseaux &amp; Infrastructures télécommunications</li>
+         <li>🏗️ Transformation digitale sécurisée</li>
+        </ul>
+       </div>
+      </div><!-- Osee Bofenda -->
+      <div class="fade-up stagger-2 p-8 rounded-lg border overflow-hidden" style="background: rgba(45, 34, 22, 0.8); border: 1px solid rgba(212, 165, 116, 0.3);">
+       <div class="mb-4">
+        <div class="w-20 h-20 rounded-lg mb-4 flex items-center justify-center" style="background: linear-gradient(135deg, #d4a574, #8b684e);"><i data-lucide="briefcase" style="width:40px;height:40px;color:#f5f0e8;"></i>
+        </div>
+        <h3 class="font-display text-2xl font-bold" style="color: #f5f0e8;">Osee Bofenda Ngulumuna</h3>
+        <p class="text-sm font-semibold mt-1" style="color: #d4a574;">Responsable des Opérations</p>
+        <p class="text-xs mt-2 uppercase tracking-wider" style="color: #a89a8c;">Support Digital &amp; Pilotage Performance</p>
+       </div>
+       <p class="text-sm leading-relaxed mb-4" style="color: #b8a89a;">Professionnel orienté résultats. Pilier opérationnel assurant la coordination fluide entre logistique terrain, administration et vision digitale.</p>
+       <div class="pt-4 border-t" style="border-color: rgba(212, 165, 116, 0.2);">
+        <p class="text-xs font-bold uppercase tracking-wider mb-3" style="color: #d4a574;">Domaines d'expertise</p>
+        <ul class="space-y-1 text-xs" style="color: #a89a8c;">
+         <li>📊 Gestion des opérations &amp; Logistique terrain</li>
+         <li>🚀 Support digital &amp; Marketing opérationnel</li>
+         <li>⚙️ Optimisation des processus</li>
+        </ul>
+       </div>
+      </div><!-- Ayfod Mbasi -->
+      <div class="fade-up stagger-3 p-8 rounded-lg border overflow-hidden" style="background: rgba(45, 34, 22, 0.8); border: 1px solid rgba(212, 165, 116, 0.3);">
+       <div class="mb-4">
+        <div class="w-20 h-20 rounded-lg mb-4 flex items-center justify-center" style="background: linear-gradient(135deg, #d4a574, #8b684e);"><i data-lucide="clipboard-list" style="width:40px;height:40px;color:#f5f0e8;"></i>
+        </div>
+        <h3 class="font-display text-2xl font-bold" style="color: #f5f0e8;">Ayfod Mbasi Luzolo</h3>
+        <p class="text-sm font-semibold mt-1" style="color: #d4a574;">Responsable Administrative</p>
+        <p class="text-xs mt-2 uppercase tracking-wider" style="color: #a89a8c;">Marchés Publics &amp; Conformité</p>
+       </div>
+       <p class="text-sm leading-relaxed mb-4" style="color: #b8a89a;">Rigoureuse et méthodique, possédant une expertise avérée dans la gestion administrative et le traitement des marchés publics complexes.</p>
+       <div class="pt-4 border-t" style="border-color: rgba(212, 165, 116, 0.2);">
+        <p class="text-xs font-bold uppercase tracking-wider mb-3" style="color: #d4a574;">Domaines d'expertise</p>
+        <ul class="space-y-1 text-xs" style="color: #a89a8c;">
+         <li>📋 Sous-traitance &amp; Marchés publics</li>
+         <li>⚖️ Gestion administrative &amp; Conformité réglementaire</li>
+         <li>✅ Dossiers bailleurs de fonds</li>
+        </ul>
+       </div>
+      </div><!-- Christian Kamal -->
+      <div class="fade-up stagger-4 p-8 rounded-lg border overflow-hidden" style="background: rgba(45, 34, 22, 0.8); border: 1px solid rgba(212, 165, 116, 0.3);">
+       <div class="mb-4">
+        <div class="w-20 h-20 rounded-lg mb-4 flex items-center justify-center" style="background: linear-gradient(135deg, #d4a574, #8b684e);"><i data-lucide="cpu" style="width:40px;height:40px;color:#f5f0e8;"></i>
+        </div>
+        <h3 class="font-display text-2xl font-bold" style="color: #f5f0e8;">Christian Kamalebo</h3>
+        <p class="text-sm font-semibold mt-1" style="color: #d4a574;">Coordinateur Technique</p>
+        <p class="text-xs mt-2 uppercase tracking-wider" style="color: #a89a8c;">Expert IT &amp; Innovation Digital</p>
+       </div>
+       <p class="text-sm leading-relaxed mb-4" style="color: #b8a99a;">Licencié en Réseaux Informatiques formé en Chine. Supervise le déploiement technique sur terrain et la coordination des équipes.</p>
+       <div class="pt-4 border-t" style="border-color: rgba(212, 165, 116, 0.2);">
+        <p class="text-xs font-bold uppercase tracking-wider mb-3" style="color: #d4a574;">Domaines d'expertise</p>
+        <ul class="space-y-1 text-xs" style="color: #a89a8c;">
+         <li>🖥️ Conception solutions digitales</li>
+         <li>🔧 Maintenance &amp; Infrastructure</li>
+         <li>🎯 Déploiement technique terrain</li>
+        </ul>
+       </div>
+      </div>
+     </div><!-- Team Stats -->
+     <div class="fade-up stagger-5 grid md:grid-cols-3 gap-8">
+      <div class="p-8 text-center rounded-lg border" style="background: rgba(45, 34, 22, 0.8); border: 1px solid rgba(212, 165, 116, 0.3);">
+       <div class="w-16 h-16 rounded-full mx-auto mb-4 flex items-center justify-center" style="background: rgba(212, 165, 116, 0.15); border: 2px solid rgba(212, 165, 116, 0.3);">
+        <i data-lucide="users" style="width:28px;height:28px;color:#d4a574;"></i>
+       </div>
+       <h3 class="font-display text-lg font-semibold" style="color: #f5f0e8;">15+ Experts</h3>
+       <p class="text-sm mt-2" style="color: #a89a8c;">Développeurs, architectes et consultants spécialisés</p>
+      </div>
+      <div class="p-8 text-center rounded-lg border" style="background: rgba(45, 34, 22, 0.8); border: 1px solid rgba(212, 165, 116, 0.3);">
+       <div class="w-16 h-16 rounded-full mx-auto mb-4 flex items-center justify-center" style="background: rgba(212, 165, 116, 0.15); border: 2px solid rgba(212, 165, 116, 0.3);">
+        <i data-lucide="award" style="width:28px;height:28px;color:#d4a574;"></i>
+       </div>
+       <h3 class="font-display text-lg font-semibold" style="color: #f5f0e8;">Certifiés</h3>
+       <p class="text-sm mt-2" style="color: #a89a8c;">ISO 27001, CISSP, AWS, Cloud &amp; Sécurité</p>
+      </div>
+      <div class="p-8 text-center rounded-lg border" style="background: rgba(45, 34, 22, 0.8); border: 1px solid rgba(212, 165, 116, 0.3);">
+       <div class="w-16 h-16 rounded-full mx-auto mb-4 flex items-center justify-center" style="background: rgba(212, 165, 116, 0.15); border: 2px solid rgba(212, 165, 116, 0.3);">
+        <i data-lucide="globe" style="width:28px;height:28px;color:#d4a574;"></i>
+       </div>
+       <h3 class="font-display text-lg font-semibold" style="color: #f5f0e8;">Multilingues</h3>
+       <p class="text-sm mt-2" style="color: #a89a8c;">Français, Anglais, Swahili &amp; Dialectes locaux</p>
+      </div>
+     </div>
+    </div>
+   </section><!-- Bailleurs de Fonds & Conformité Internationale -->
+   <section id="donors-compliance" class="w-full py-24 px-6" style="background: linear-gradient(180deg, rgba(26,20,16,0.8) 0%, rgba(42,34,22,0.8) 100%), url('https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=1200&amp;h=600&amp;fit=crop') center/cover; background-attachment: fixed;">
+    <div class="max-w-6xl mx-auto">
+     <div class="text-center mb-16">
+      <p class="text-sm font-bold tracking-[0.2em] uppercase mb-4" style="color: #d4a574;">✓ Normes Internationales</p>
+      <h2 class="font-display text-4xl md:text-5xl font-bold mb-4" style="color: #f5f0e8;">Conformité Bailleurs de Fonds &amp; ONG</h2>
+      <div class="w-20 h-1 mx-auto rounded-full" style="background: linear-gradient(90deg, transparent, #d4a574, transparent);"></div>
+      <p class="text-base mt-6 max-w-3xl mx-auto" style="color: #b8a89a;">TO LEARN UP SARLU répond aux standards de conformité les plus rigoureux demandés par les bailleurs de fonds internationaux, ONG et organisations multilatérales.</p>
+     </div><!-- Standards Badges -->
+     <div class="grid md:grid-cols-4 gap-6 mb-16">
+      <div class="fade-up stagger-1 p-6 rounded-lg text-center border" style="background: rgba(45, 34, 22, 0.9); border: 2px solid rgba(212, 165, 116, 0.5);">
+       <div class="inline-flex items-center justify-center w-16 h-16 rounded-full mb-4" style="background: rgba(212, 165, 116, 0.2); border: 2px solid #d4a574;">
+        <i data-lucide="check-circle" style="width:32px;height:32px;color:#d4a574;"></i>
+       </div>
+       <h3 class="font-display font-semibold mb-2" style="color: #f5f0e8;">ISO 27001</h3>
+       <p class="text-xs" style="color: #a89a8c;">Sécurité Information &amp; Protection Données</p>
+      </div>
+      <div class="fade-up stagger-2 p-6 rounded-lg text-center border" style="background: rgba(45, 34, 22, 0.9); border: 2px solid rgba(212, 165, 116, 0.5);">
+       <div class="inline-flex items-center justify-center w-16 h-16 rounded-full mb-4" style="background: rgba(212, 165, 116, 0.2); border: 2px solid #d4a574;">
+        <i data-lucide="scale" style="width:32px;height:32px;color:#d4a574;"></i>
+       </div>
+       <h3 class="font-display font-semibold mb-2" style="color: #f5f0e8;">RGPD EU 2016/679</h3>
+       <p class="text-xs" style="color: #a89a8c;">Conformité Protection Données Personnelles</p>
+      </div>
+      <div class="fade-up stagger-3 p-6 rounded-lg text-center border" style="background: rgba(45, 34, 22, 0.9); border: 2px solid rgba(212, 165, 116, 0.5);">
+       <div class="inline-flex items-center justify-center w-16 h-16 rounded-full mb-4" style="background: rgba(212, 165, 116, 0.2); border: 2px solid #d4a574;">
+        <i data-lucide="zap" style="width:32px;height:32px;color:#d4a574;"></i>
+       </div>
+       <h3 class="font-display font-semibold mb-2" style="color: #f5f0e8;">NIST Cybersecurity</h3>
+       <p class="text-xs" style="color: #a89a8c;">Framework Résilience Cyber</p>
+      </div>
+      <div class="fade-up stagger-4 p-6 rounded-lg text-center border" style="background: rgba(45, 34, 22, 0.9); border: 2px solid rgba(212, 165, 116, 0.5);">
+       <div class="inline-flex items-center justify-center w-16 h-16 rounded-full mb-4" style="background: rgba(212, 165, 116, 0.2); border: 2px solid #d4a574;">
+        <i data-lucide="shield-check" style="width:32px;height:32px;color:#d4a574;"></i>
+       </div>
+       <h3 class="font-display font-semibold mb-2" style="color: #f5f0e8;">SOC 2 Type II</h3>
+       <p class="text-xs" style="color: #a89a8c;">Audits Sécurité &amp; Conformité</p>
+      </div>
+     </div><!-- Compliance Criteria -->
+     <div class="grid md:grid-cols-2 gap-12 mb-16">
+      <div class="fade-up stagger-1 p-8 rounded-lg border" style="background: rgba(45, 34, 22, 0.8); border: 1px solid rgba(212, 165, 116, 0.3);">
+       <h3 class="font-display text-lg font-semibold mb-6" style="color: #f5f0e8;">✓ Normes Gouvernance</h3>
+       <ul class="space-y-3 text-sm" style="color: #a89a8c;">
+        <li class="flex gap-3"><i data-lucide="check" style="width:20px;height:20px;color:#d4a574;flex-shrink:0;"></i> <span><strong style="color:#d4a574;">Transparence financière</strong> - Rapports auditables &amp; traçabilité dépenses</span></li>
+        <li class="flex gap-3"><i data-lucide="check" style="width:20px;height:20px;color:#d4a574;flex-shrink:0;"></i> <span><strong style="color:#d4a574;">Documentation complète</strong> - Registres projets, contrats &amp; livrables</span></li>
+        <li class="flex gap-3"><i data-lucide="check" style="width:20px;height:20px;color:#d4a574;flex-shrink:0;"></i> <span><strong style="color:#d4a574;">Audits indépendants</strong> - Rapports d'audit disponibles sur demande</span></li>
+        <li class="flex gap-3"><i data-lucide="check" style="width:20px;height:20px;color:#d4a574;flex-shrink:0;"></i> <span><strong style="color:#d4a574;">Gestion des risques</strong> - Évaluation &amp; mitigation documentées</span></li>
+        <li class="flex gap-3"><i data-lucide="check" style="width:20px;height:20px;color:#d4a574;flex-shrink:0;"></i> <span><strong style="color:#d4a574;">Continuité de service</strong> - Plans de continuité &amp; disaster recovery</span></li>
+       </ul>
+      </div>
+      <div class="fade-up stagger-2 p-8 rounded-lg border" style="background: rgba(45, 34, 22, 0.8); border: 1px solid rgba(212, 165, 116, 0.3);">
+       <h3 class="font-display text-lg font-semibold mb-6" style="color: #f5f0e8;">✓ Normes Éthique &amp; RSE</h3>
+       <ul class="space-y-3 text-sm" style="color: #a89a8c;">
+        <li class="flex gap-3"><i data-lucide="check" style="width:20px;height:20px;color:#d4a574;flex-shrink:0;"></i> <span><strong style="color:#d4a574;">Zéro corruption</strong> - Politique anti-fraude &amp; code de conduite</span></li>
+        <li class="flex gap-3"><i data-lucide="check" style="width:20px;height:20px;color:#d4a574;flex-shrink:0;"></i> <span><strong style="color:#d4a574;">Égalité &amp; inclusion</strong> - Parité genre &amp; non-discrimination</span></li>
+        <li class="flex gap-3"><i data-lucide="check" style="width:20px;height:20px;color:#d4a574;flex-shrink:0;"></i> <span><strong style="color:#d4a574;">Droits des salariés</strong> - Contrats formels &amp; assurance sociale</span></li>
+        <li class="flex gap-3"><i data-lucide="check" style="width:20px;height:20px;color:#d4a574;flex-shrink:0;"></i> <span><strong style="color:#d4a574;">Environnement</strong> - Gestion responsable ressources &amp; déchets électroniques</span></li>
+        <li class="flex gap-3"><i data-lucide="check" style="width:20px;height:20px;color:#d4a574;flex-shrink:0;"></i> <span><strong style="color:#d4a574;">Traçabilité sourcing</strong> - Fournisseurs vérifiés &amp; certifiés</span></li>
+       </ul>
+      </div>
+     </div><!-- Donor Organizations -->
+     <div class="fade-up stagger-3 mb-16 p-8 rounded-lg border" style="background: rgba(45, 34, 22, 0.8); border: 1px solid rgba(212, 165, 116, 0.3);">
+      <h3 class="font-display text-lg font-semibold mb-6" style="color: #f5f0e8;">🏢 Compatibilité avec les Bailleurs</h3>
+      <div class="grid md:grid-cols-3 gap-4 text-sm" style="color: #a89a8c;">
+       <div class="p-4 rounded-lg" style="background: rgba(212, 165, 116, 0.08); border-left: 3px solid #d4a574;">
+        <p class="font-bold mb-1" style="color: #d4a574;">Banque Mondiale / BIRD</p>
+        <p>Audit fiduciaire, OCDS compliance, déclarations intérêts</p>
+       </div>
+       <div class="p-4 rounded-lg" style="background: rgba(212, 165, 116, 0.08); border-left: 3px solid #d4a574;">
+        <p class="font-bold mb-1" style="color: #d4a574;">Union Européenne</p>
+        <p>RGPD, transparence financière, audit annuel indépendant</p>
+       </div>
+       <div class="p-4 rounded-lg" style="background: rgba(212, 165, 116, 0.08); border-left: 3px solid #d4a574;">
+        <p class="font-bold mb-1" style="color: #d4a574;">ONU &amp; Agences (PNUD, UNICEF, PAM)</p>
+        <p>Protection données, gestion riques géopolitiques, astreintes légales</p>
+       </div>
+       <div class="p-4 rounded-lg" style="background: rgba(212, 165, 116, 0.08); border-left: 3px solid #d4a574;">
+        <p class="font-bold mb-1" style="color: #d4a574;">Fondations Internationales</p>
+        <p>Impact mesurable, reporting trimestrel, code d'éthique</p>
+       </div>
+       <div class="p-4 rounded-lg" style="background: rgba(212, 165, 116, 0.08); border-left: 3px solid #d4a574;">
+        <p class="font-bold mb-1" style="color: #d4a574;">Gouvernements Donateurs</p>
+        <p>Due diligence renforcée, vérification sources fonds, taxes</p>
+       </div>
+       <div class="p-4 rounded-lg" style="background: rgba(212, 165, 116, 0.08); border-left: 3px solid #d4a574;">
+        <p class="font-bold mb-1" style="color: #d4a574;">ONG Internationales</p>
+        <p>Standards INGHIMR, transparence opérationnelle, évaluation impact</p>
+       </div>
+      </div>
+     </div><!-- Documentation Available -->
+     <div class="fade-up stagger-4 p-8 rounded-lg text-center border" style="background: linear-gradient(135deg, rgba(212, 165, 116, 0.15), rgba(212, 165, 116, 0.05)); border: 2px solid rgba(212, 165, 116, 0.4);">
+      <h3 class="font-display text-xl font-bold mb-4" style="color: #f5f0e8;">📋 Documentation Disponible</h3>
+      <div class="grid md:grid-cols-2 gap-6 mb-6 text-sm" style="color: #b8a89a;">
+       <div>
+        <p class="font-bold mb-2" style="color: #d4a574;">Gouvernance</p>
+        <ul class="space-y-1 text-xs">
+         <li>✓ Statuts &amp; Règlement intérieur</li>
+         <li>✓ Organigramme &amp; responsabilités</li>
+         <li>✓ Policies &amp; procédures</li>
+         <li>✓ Déclaration intérêts</li>
+        </ul>
+       </div>
+       <div>
+        <p class="font-bold mb-2" style="color: #d4a574;">Financier &amp; Audit</p>
+        <ul class="space-y-1 text-xs">
+         <li>✓ Rapports financiers audités</li>
+         <li>✓ Budgets &amp; prévisions</li>
+         <li>✓ Rapports d'audit externe</li>
+         <li>✓ Conformité fiscale RDC</li>
+        </ul>
+       </div>
+       <div>
+        <p class="font-bold mb-2" style="color: #d4a574;">Sécurité &amp; Données</p>
+        <ul class="space-y-1 text-xs">
+         <li>✓ Certificats ISO 27001</li>
+         <li>✓ Politique RGPD &amp; DPA</li>
+         <li>✓ Incident response plan</li>
+         <li>✓ Audit cybersécurité</li>
+        </ul>
+       </div>
+       <div>
+        <p class="font-bold mb-2" style="color: #d4a574;">Ressources Humaines</p>
+        <ul class="space-y-1 text-xs">
+         <li>✓ Contrats &amp; CV équipe</li>
+         <li>✓ Registre paie &amp; taxes</li>
+         <li>✓ Formation &amp; certifications</li>
+         <li>✓ Code de conduite employés</li>
+        </ul>
+       </div>
+      </div>
+      <p class="text-xs font-semibold" style="color: #d4a574;">📞 Tous les documents sont disponibles pour audit complet sur demande officielle</p>
+     </div>
+    </div>
+   </section><!-- Compliance Section -->
+   <section id="compliance" class="w-full py-24 px-6" style="background: linear-gradient(180deg, #1a1410 0%, #2a2216 100%);">
+    <div class="max-w-6xl mx-auto">
+     <div class="text-center mb-16">
+      <p class="text-sm font-bold tracking-[0.2em] uppercase mb-4" style="color: #d4a574;">Engagement</p>
+      <h2 id="compliance-heading" class="font-display text-4xl md:text-5xl font-bold mb-4" style="color: #f5f0e8;">Conformité &amp; Éthique</h2>
+      <div class="w-20 h-1 mx-auto rounded-full" style="background: linear-gradient(90deg, transparent, #d4a574, transparent);"></div>
+     </div>
+     <div class="grid md:grid-cols-2 gap-12">
+      <div class="fade-up stagger-1 p-8 rounded-lg border" style="background: rgba(45, 34, 22, 0.8); border: 1px solid rgba(212, 165, 116, 0.3);">
+       <div class="flex items-center gap-3 mb-4">
+        <i data-lucide="shield-check" style="width:24px;height:24px;color:#d4a574;"></i>
+        <h3 class="font-display text-lg font-semibold" style="color: #f5f0e8;">Conformité Légale</h3>
+       </div>
+       <p class="text-sm leading-relaxed" style="color: #a89a8c;">Respect strict des lois RDC, standards ISO, bonnes pratiques IT et exigences des partenaires internationaux.</p>
+      </div>
+      <div class="fade-up stagger-2 p-8 rounded-lg border" style="background: rgba(45, 34, 22, 0.8); border: 1px solid rgba(212, 165, 116, 0.3);">
+       <div class="flex items-center gap-3 mb-4">
+        <i data-lucide="lock" style="width:24px;height:24px;color:#d4a574;"></i>
+        <h3 class="font-display text-lg font-semibold" style="color: #f5f0e8;">Protection Données</h3>
+       </div>
+       <p class="text-sm leading-relaxed" style="color: #a89a8c;">Confidentialité garantie, chiffrement des données sensibles, sauvegardes régulières et contrôle d'accès strict.</p>
+      </div>
+      <div class="fade-up stagger-3 p-8 rounded-lg border" style="background: rgba(45, 34, 22, 0.8); border: 1px solid rgba(212, 165, 116, 0.3);">
+       <div class="flex items-center gap-3 mb-4">
+        <i data-lucide="scale" style="width:24px;height:24px;color:#d4a574;"></i>
+        <h3 class="font-display text-lg font-semibold" style="color: #f5f0e8;">Éthique Professionnelle</h3>
+       </div>
+       <p class="text-sm leading-relaxed" style="color: #a89a8c;">Tolérance zéro corruption, transparence décisionnelle, équité partenaires et engagement contractuel.</p>
+      </div>
+      <div class="fade-up stagger-4 p-8 rounded-lg border" style="background: rgba(45, 34, 22, 0.8); border: 1px solid rgba(212, 165, 116, 0.3);">
+       <div class="flex items-center gap-3 mb-4">
+        <i data-lucide="briefcase" style="width:24px;height:24px;color:#d4a574;"></i>
+        <h3 class="font-display text-lg font-semibold" style="color: #f5f0e8;">Responsabilité Sociale</h3>
+       </div>
+       <p class="text-sm leading-relaxed" style="color: #a89a8c;">Emploi local, gestion responsable des équipements, bonne gouvernance et développement durable.</p>
+      </div>
+     </div>
+     <div class="fade-up stagger-5 mt-16 p-8 rounded-lg text-center border" style="background: rgba(212, 165, 116, 0.1); border: 2px solid rgba(212, 165, 116, 0.3);">
+      <p class="text-sm leading-relaxed mb-2" style="color: #b8a89a;"><strong style="color: #d4a574;">📄 Documents Légaux &amp; CV Disponibles</strong></p>
+      <p class="text-xs" style="color: #a89a8c;">Nos documents légaux d'entreprise et CV détaillés de notre personnel sont disponibles sur demande. Contactez-nous pour plus d'informations.</p>
+     </div>
+    </div>
+   </section><!-- Contact Section -->
+   <section id="contact" class="w-full py-24 px-6" style="background: linear-gradient(180deg, #2a2216 0%, #1a1410 100%);">
+    <div class="max-w-6xl mx-auto">
+     <div class="text-center mb-16">
+      <p class="text-sm font-bold tracking-[0.2em] uppercase mb-4" style="color: #d4a574;">Prenez Contact</p>
+      <h2 id="contact-heading" class="font-display text-4xl md:text-5xl font-bold mb-4" style="color: #f5f0e8;">Nous Contacter</h2>
+      <div class="w-20 h-1 mx-auto rounded-full" style="background: linear-gradient(90deg, transparent, #d4a574, transparent);"></div>
+     </div>
+     <div class="grid md:grid-cols-3 gap-8 mb-16">
+      <!-- Address -->
+      <div class="fade-up stagger-1 p-8 rounded-lg text-center border" style="background: rgba(45, 34, 22, 0.8); border: 1px solid rgba(212, 165, 116, 0.3);">
+       <div class="w-12 h-12 rounded-lg flex items-center justify-center mx-auto mb-4" style="background: rgba(212, 165, 116, 0.15);">
+        <i data-lucide="map-pin" style="width:24px;height:24px;color:#d4a574;"></i>
+       </div>
+       <h3 class="font-display text-lg font-semibold mb-2" style="color: #f5f0e8;">Adresse</h3>
+       <p id="address" class="text-sm" style="color: #a89a8c;">Kinshasa, Mont-Ngafula</p>
+      </div><!-- Phone -->
+      <div class="fade-up stagger-2 p-8 rounded-lg text-center border" style="background: rgba(45, 34, 22, 0.8); border: 1px solid rgba(212, 165, 116, 0.3);">
+       <div class="w-12 h-12 rounded-lg flex items-center justify-center mx-auto mb-4" style="background: rgba(212, 165, 116, 0.15);">
+        <i data-lucide="phone" style="width:24px;height:24px;color:#d4a574;"></i>
+       </div>
+       <h3 class="font-display text-lg font-semibold mb-2" style="color: #f5f0e8;">Téléphone</h3>
+       <div class="space-y-1">
+        <a id="phone-1" href="tel:+243838522850" class="block text-sm hover:opacity-80 transition" style="color: #d4a574;">+243 838 522 850</a> <a id="phone-2" href="tel:+243993727964" class="block text-sm hover:opacity-80 transition" style="color: #d4a574;">+243 993 727 964</a>
+       </div>
+      </div><!-- Email -->
+      <div class="fade-up stagger-3 p-8 rounded-lg text-center border" style="background: rgba(45, 34, 22, 0.8); border: 1px solid rgba(212, 165, 116, 0.3);">
+       <div class="w-12 h-12 rounded-lg flex items-center justify-center mx-auto mb-4" style="background: rgba(212, 165, 116, 0.15);">
+        <i data-lucide="mail" style="width:24px;height:24px;color:#d4a574;"></i>
+       </div>
+       <h3 class="font-display text-lg font-semibold mb-2" style="color: #f5f0e8;">Email</h3><a id="email" href="mailto:to.learn.up@outlook.com" class="text-sm hover:opacity-80 transition" style="color: #d4a574;">to.learn.up@outlook.com</a>
+      </div>
+     </div><!-- Contact Form -->
+     <div class="fade-up stagger-4 max-w-2xl mx-auto p-8 rounded-lg border" style="background: rgba(45, 34, 22, 0.8); border: 1px solid rgba(212, 165, 116, 0.3);">
+      <form id="contact-form" class="space-y-6">
+       <div class="grid md:grid-cols-2 gap-6">
+        <div>
+         <label for="name" class="block text-xs font-bold uppercase tracking-wider mb-2" style="color: #d4a574;">Nom Complet</label> <input id="name" type="text" placeholder="Votre nom" required class="w-full px-4 py-3 rounded-lg text-sm outline-none transition-all duration-200 focus:ring-2" style="background: rgba(26, 20, 16, 0.6); border: 1px solid rgba(212, 165, 116, 0.3); color: #f5f0e8; --tw-ring-color: #d4a574;">
+        </div>
+        <div>
+         <label for="email-form" class="block text-xs font-bold uppercase tracking-wider mb-2" style="color: #d4a574;">Email</label> <input id="email-form" type="email" placeholder="votre@email.com" required class="w-full px-4 py-3 rounded-lg text-sm outline-none transition-all duration-200 focus:ring-2" style="background: rgba(26, 20, 16, 0.6); border: 1px solid rgba(212, 165, 116, 0.3); color: #f5f0e8;">
+        </div>
+       </div>
+       <div>
+        <label for="subject" class="block text-xs font-bold uppercase tracking-wider mb-2" style="color: #d4a574;">Sujet</label> <input id="subject" type="text" placeholder="Objet de votre demande" required class="w-full px-4 py-3 rounded-lg text-sm outline-none transition-all duration-200 focus:ring-2" style="background: rgba(26, 20, 16, 0.6); border: 1px solid rgba(212, 165, 116, 0.3); color: #f5f0e8;">
+       </div>
+       <div>
+        <label for="message" class="block text-xs font-bold uppercase tracking-wider mb-2" style="color: #d4a574;">Message</label> <textarea id="message" rows="6" placeholder="Décrivez votre projet ou besoin..." required class="w-full px-4 py-3 rounded-lg text-sm outline-none transition-all duration-200 focus:ring-2 resize-none" style="background: rgba(26, 20, 16, 0.6); border: 1px solid rgba(212, 165, 116, 0.3); color: #f5f0e8;"></textarea>
+       </div><button type="submit" class="btn-primary w-full py-4 text-sm font-bold uppercase tracking-wider rounded-lg" style="background: #d4a574; color: #1a1410; border-color: #d4a574;"> <i data-lucide="send" style="display: inline; width: 18px; height: 18px; margin-right: 8px;"></i>Envoyer le Message </button>
+       <p id="form-success" class="hidden text-center text-sm mt-4 font-semibold" style="color: #d4a574;">✓ Message envoyé avec succès ! Nous vous recontacterons rapidement.</p>
+      </form>
+     </div><!-- CTA Banner -->
+     <div class="fade-up stagger-5 mt-16 p-12 rounded-lg text-center border" style="background: linear-gradient(135deg, rgba(212, 165, 116, 0.1), rgba(212, 165, 116, 0.05)); border: 2px solid rgba(212, 165, 116, 0.3);">
+      <h3 class="font-display text-2xl md:text-3xl font-bold mb-4" style="color: #f5f0e8;">Prêt à digitaliser votre organisation ?</h3>
+      <p class="text-base mb-6" style="color: #b8a89a;">Transformez vos défis en opportunités avec les solutions expertes de TO LEARN UP SARLU</p><a href="tel:+243838522850" class="btn-primary inline-block px-10 py-4 text-sm font-bold uppercase tracking-wider rounded-lg" style="background: #d4a574; color: #1a1410; border-color: #d4a574;"> 📞 Appelez-Nous Dès Maintenant </a>
+     </div>
+    </div>
+   </section><!-- Footer -->
+   <footer class="w-full py-12 px-6 border-t" style="border-color: rgba(212, 165, 116, 0.2); background: linear-gradient(180deg, #1a1410 0%, #0f0c0a 100%);">
+    <div class="max-w-6xl mx-auto grid md:grid-cols-4 gap-8 mb-8">
+     <div>
+      <h4 class="font-display text-lg font-bold mb-4" style="color: #d4a574;">TO LEARN UP SARLU</h4>
+      <p class="text-xs leading-relaxed" style="color: #a89a8c;">Transformation digitale, cybersécurité et innovation au service de votre organisation.</p>
+     </div>
+     <div>
+      <h5 class="font-display font-semibold mb-3" style="color: #d4a574;">Services</h5>
+      <ul class="space-y-2 text-xs" style="color: #a89a8c;">
+       <li><a href="#services" class="hover:opacity-80">Technologies IT</a></li>
+       <li><a href="#services" class="hover:opacity-80">Cybersécurité</a></li>
+       <li><a href="#services" class="hover:opacity-80">Transformation Digitale</a></li>
+      </ul>
+     </div>
+     <div>
+      <h5 class="font-display font-semibold mb-3" style="color: #d4a574;">Entreprise</h5>
+      <ul class="space-y-2 text-xs" style="color: #a89a8c;">
+       <li><a href="#about" class="hover:opacity-80">À Propos</a></li>
+       <li><a href="#compliance" class="hover:opacity-80">Conformité</a></li>
+       <li><a href="#contact" class="hover:opacity-80">Contact</a></li>
+      </ul>
+     </div>
+     <div>
+      <h5 class="font-display font-semibold mb-3" style="color: #d4a574;">Suivez-Nous</h5>
+      <div class="flex gap-4">
+       <a href="#" class="w-8 h-8 rounded-lg flex items-center justify-center transition-colors hover:opacity-80" style="background: rgba(212, 165, 116, 0.15);"> <i data-lucide="linkedin" style="width:16px;height:16px;color:#d4a574;"></i> </a> <a href="#" class="w-8 h-8 rounded-lg flex items-center justify-center transition-colors hover:opacity-80" style="background: rgba(212, 165, 116, 0.15);"> <i data-lucide="twitter" style="width:16px;height:16px;color:#d4a574;"></i> </a> <a href="#" class="w-8 h-8 rounded-lg flex items-center justify-center transition-colors hover:opacity-80" style="background: rgba(212, 165, 116, 0.15);"> <i data-lucide="facebook" style="width:16px;height:16px;color:#d4a574;"></i> </a>
+      </div>
+     </div>
+    </div>
+    <div class="border-t" style="border-color: rgba(212, 165, 116, 0.2);"></div>
+    <div class="pt-8 flex flex-col md:flex-row items-center justify-between gap-4 text-xs" style="color: #6b5f52;">
+     <p>© 2025 TO LEARN UP SARLU. Tous droits réservés.</p>
+     <div class="flex gap-6">
+      <a href="#" class="hover:opacity-80">Politique de Confidentialité</a> <a href="#" class="hover:opacity-80">Conditions d'Utilisation</a> <a href="mailto:to.learn.up@outlook.com" class="hover:opacity-80">Contactez-Nous</a>
+     </div>
+    </div>
+   </footer>
+  </div>
+  <script>
+    const defaultConfig = {
+      background_color: '#1a1410',
+      surface_color: '#2d2216',
+      text_color: '#f5f0e8',
+      primary_action: '#d4a574',
+      secondary_action: '#b8a89a',
+      font_family: 'Lora',
+      font_size: 16,
+      hero_title: 'Accélérez votre transformation digitale',
+      hero_subtitle: 'Nous accompagnons entreprises, institutions et organisations dans la conception, la sécurisation et la modernisation de leurs systèmes numériques avec expertise, transparence et innovation.',
+      cta_request: 'Demander un Service',
+      cta_discover: 'Découvrir nos Services',
+      services_heading: 'Nos Services',
+      realizations_heading: 'Nos Réalisations',
+      certifications_heading: 'Nos Certifications',
+      faq_heading: 'Questions Fréquentes',
+      story_heading: 'Notre Histoire et Vision Unique',
+      story_text: 'Chez TO LEARN UP SARLU, nous ne nous contentons pas de fournir des services numériques : nous accompagnons les organisations vers une transformation durable et sécurisée. Depuis notre création en 2023, notre mission est claire : rendre la technologie accessible, sécurisée et stratégique.',
+      about_heading: 'À Propos de TO LEARN UP SARLU',
+      about_text: 'TO LEARN UP SARLU est une entreprise spécialisée dans la transformation digitale, la cybersécurité et les infrastructures IT. Basée à Kinshasa, nous intervenons auprès des entreprises, ONG et institutions avec une approche orientée performance, sécurité et innovation.',
+      team_heading: 'Notre Équipe de Direction',
+      compliance_heading: 'Conformité & Éthique',
+      contact_heading: 'Nous Contacter',
+      phone_1: '+243 838 522 850',
+      phone_2: '+243 993 727 964',
+      email: 'to.learn.up@outlook.com',
+      address: 'Kinshasa, Mont-Ngafula'
+    };
+
+    // Mobile menu
+    document.getElementById('mobile-toggle').addEventListener('click', () => {
+      document.getElementById('mobile-menu').classList.toggle('hidden');
+    });
+    document.querySelectorAll('#mobile-menu a').forEach(a => {
+      a.addEventListener('click', () => document.getElementById('mobile-menu').classList.add('hidden'));
+    });
+
+    // Form
+    document.getElementById('contact-form').addEventListener('submit', (e) => {
+      e.preventDefault();
+      document.getElementById('form-success').classList.remove('hidden');
+      e.target.reset();
+      setTimeout(() => document.getElementById('form-success').classList.add('hidden'), 5000);
+    });
+
+    // Intersection observer for animations
+    const obs = new IntersectionObserver((entries) => {
+      entries.forEach(e => {
+        if (e.isIntersecting) {
+          e.target.style.animationPlayState = 'running';
+        }
+      });
+    }, { threshold: 0.1 });
+    document.querySelectorAll('.fade-up').forEach(el => {
+      el.style.animationPlayState = 'paused';
+      obs.observe(el);
+    });
+
+    // Navbar background on scroll
+    window.addEventListener('scroll', () => {
+      const navbar = document.getElementById('navbar');
+      if (window.scrollY > 50) {
+        navbar.style.background = 'rgba(26, 20, 16, 0.98)';
+      } else {
+        navbar.style.background = 'rgba(26, 20, 16, 0.95)';
+      }
+    });
+
+    // Element SDK
+    function applyConfig(config) {
+      const bg = config.background_color || defaultConfig.background_color;
+      const surface = config.surface_color || defaultConfig.surface_color;
+      const text = config.text_color || defaultConfig.text_color;
+      const primary = config.primary_action || defaultConfig.primary_action;
+      const secondary = config.secondary_action || defaultConfig.secondary_action;
+      const font = config.font_family || defaultConfig.font_family;
+      const size = config.font_size || defaultConfig.font_size;
+
+      // Hero
+      document.getElementById('hero-title').textContent = config.hero_title || defaultConfig.hero_title;
+      document.getElementById('hero-subtitle').textContent = config.hero_subtitle || defaultConfig.hero_subtitle;
+      document.getElementById('cta-request').textContent = config.cta_request || defaultConfig.cta_request;
+      document.getElementById('cta-discover').textContent = config.cta_discover || defaultConfig.cta_discover;
+
+      // Services
+      document.getElementById('services-heading').textContent = config.services_heading || defaultConfig.services_heading;
+
+      // Realizations
+      document.getElementById('realizations-heading').textContent = config.realizations_heading || defaultConfig.realizations_heading;
+
+      // Certifications
+      document.getElementById('certifications-heading').textContent = config.certifications_heading || defaultConfig.certifications_heading;
+
+      // FAQ
+      document.getElementById('faq-heading').textContent = config.faq_heading || defaultConfig.faq_heading;
+
+      // Story
+      document.getElementById('story-heading').textContent = config.story_heading || defaultConfig.story_heading;
+      document.getElementById('story-text').textContent = config.story_text || defaultConfig.story_text;
+      document.getElementById('about-heading').textContent = config.about_heading || defaultConfig.about_heading;
+      document.getElementById('about-text').textContent = config.about_text || defaultConfig.about_text;
+
+      // Team
+      document.getElementById('team-heading').textContent = config.team_heading || defaultConfig.team_heading;
+
+      // Compliance
+      document.getElementById('compliance-heading').textContent = config.compliance_heading || defaultConfig.compliance_heading;
+
+      // Contact
+      document.getElementById('contact-heading').textContent = config.contact_heading || defaultConfig.contact_heading;
+      document.getElementById('address').textContent = config.address || defaultConfig.address;
+      document.getElementById('phone-1').textContent = config.phone_1 || defaultConfig.phone_1;
+      document.getElementById('phone-1').href = 'tel:' + (config.phone_1 || defaultConfig.phone_1).replace(/\s/g, '');
+      document.getElementById('phone-2').textContent = config.phone_2 || defaultConfig.phone_2;
+      document.getElementById('phone-2').href = 'tel:' + (config.phone_2 || defaultConfig.phone_2).replace(/\s/g, '');
+      document.getElementById('email').textContent = config.email || defaultConfig.email;
+      document.getElementById('email').href = 'mailto:' + (config.email || defaultConfig.email);
+    }
+
+    // FAQ Toggle
+    document.querySelectorAll('.faq-button').forEach(button => {
+      button.addEventListener('click', () => {
+        const content = button.nextElementSibling;
+        const icon = button.querySelector('.faq-icon');
+        content.classList.toggle('hidden');
+        icon.style.transform = content.classList.contains('hidden') ? 'rotate(0deg)' : 'rotate(180deg)';
+      });
+    });
+
+    window.elementSdk.init({
+      defaultConfig,
+      onConfigChange: async (config) => applyConfig(config),
+      mapToCapabilities: (config) => ({
+        recolorables: [
+          { get: () => config.background_color || defaultConfig.background_color, set: (v) => { config.background_color = v; window.elementSdk.setConfig({ background_color: v }); } },
+          { get: () => config.surface_color || defaultConfig.surface_color, set: (v) => { config.surface_color = v; window.elementSdk.setConfig({ surface_color: v }); } },
+          { get: () => config.text_color || defaultConfig.text_color, set: (v) => { config.text_color = v; window.elementSdk.setConfig({ text_color: v }); } },
+          { get: () => config.primary_action || defaultConfig.primary_action, set: (v) => { config.primary_action = v; window.elementSdk.setConfig({ primary_action: v }); } },
+          { get: () => config.secondary_action || defaultConfig.secondary_action, set: (v) => { config.secondary_action = v; window.elementSdk.setConfig({ secondary_action: v }); } },
+        ],
+        borderables: [],
+        fontEditable: { get: () => config.font_family || defaultConfig.font_family, set: (v) => { config.font_family = v; window.elementSdk.setConfig({ font_family: v }); } },
+        fontSizeable: { get: () => config.font_size || defaultConfig.font_size, set: (v) => { config.font_size = v; window.elementSdk.setConfig({ font_size: v }); } },
+      }),
+      mapToEditPanelValues: (config) => new Map([
+        ['hero_title', config.hero_title || defaultConfig.hero_title],
+        ['hero_subtitle', config.hero_subtitle || defaultConfig.hero_subtitle],
+        ['cta_request', config.cta_request || defaultConfig.cta_request],
+        ['cta_discover', config.cta_discover || defaultConfig.cta_discover],
+        ['services_heading', config.services_heading || defaultConfig.services_heading],
+        ['realizations_heading', config.realizations_heading || defaultConfig.realizations_heading],
+        ['certifications_heading', config.certifications_heading || defaultConfig.certifications_heading],
+        ['faq_heading', config.faq_heading || defaultConfig.faq_heading],
+        ['story_heading', config.story_heading || defaultConfig.story_heading],
+        ['story_text', config.story_text || defaultConfig.story_text],
+        ['about_heading', config.about_heading || defaultConfig.about_heading],
+        ['about_text', config.about_text || defaultConfig.about_text],
+        ['team_heading', config.team_heading || defaultConfig.team_heading],
+        ['compliance_heading', config.compliance_heading || defaultConfig.compliance_heading],
+        ['contact_heading', config.contact_heading || defaultConfig.contact_heading],
+        ['phone_1', config.phone_1 || defaultConfig.phone_1],
+        ['phone_2', config.phone_2 || defaultConfig.phone_2],
+        ['email', config.email || defaultConfig.email],
+        ['address', config.address || defaultConfig.address],
+      ])
+    });
+
+    lucide.createIcons();
+  </script>
+ <script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9e7faf6286c23e9a',t:'MTc3NTQ2Njg5Ni4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>
